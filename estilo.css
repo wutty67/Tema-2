@@ -1,0 +1,434 @@
+body 
+	{                            /* DEFINIMOS BODY */
+    font-family: verdana;
+		width: 100%; 
+		margin: auto; 
+		background: #004A61; 
+		
+	} 
+	   
+
+		
+         							/* DEFINIMOS LAS CARACTERISTICAS DE LA PAGINA PRINCIPAL  */
+							
+	.izquierda	
+	{
+		position: absolute;
+		top:60%;
+		left:0%;
+		width:49%;
+		margin-left:0px;
+		height:300px;
+		margin-top:-150px;
+		border:0px solid #808080;
+		padding:5px;
+	}			
+
+.derecha	
+	{
+		position: relative;
+		top:40%;
+		left:50%;
+		width:49%;
+		margin-left:0px;
+		height:610px;
+		margin-top:0px;
+		border:0px solid #808080;
+		padding:5px;
+	}				
+
+.EntradaBlog
+	{
+		position: relative;
+		left:1%;
+		width:96%;
+		margin-left:0px;
+		height:135px;
+		margin-top:5px;
+		border:1px solid black;
+		padding:5px;
+		display:inline-block;
+		border-radius: 15px;
+		background-color :gray;
+		color:black;
+		overflow:hidden;
+	}		
+  	
+.FechaBlog
+	{
+		margin-left:auto;
+		margin-right:auto;
+		background:#505050;
+		color:white;
+		text-align:center;
+	}
+
+.TituloBlog
+	{
+		text-align:center;
+	}
+
+.TextoBlog
+	{
+		font-size:90%;
+		display:inline;
+		overflow:hidden;
+	}
+		
+.TextoPrincipal							
+	{
+		color:	#E4004F;
+		text-align: center;
+		text-decoration:none;
+	}
+
+.ImagenPrincipal
+	{
+		display:block;
+		margin:auto;	
+	}
+							
+                       							/* DEFINIMOS EL MENU  */
+							
+							
+#header 
+	{               
+		display:inline-block;
+	}
+			
+	ul, ol 
+	{
+		list-style:none;
+	}
+			
+	.nav > li 
+	{
+		float:left;
+	}
+			
+	.nav li a 
+	{
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}
+			
+	.nav li a:hover 
+	{
+		background-color:#434343;
+	}
+			
+	.nav li ul 
+	{
+		display:none;
+		position:absolute;
+		min-width:140px;
+	}
+			
+	.nav li:hover > ul 
+	{
+		display:block;
+		z-index:100;
+	}
+			
+	.nav li ul li 
+		{
+			position:relative;
+		}
+			
+	.nav li ul li ul 
+	{
+		right:-140px;
+		top:0px;
+	}
+			
+
+                             /* DEFINICIONES TABLA ASIGNATURAS*/
+.ListaAsignaturas tr:hover td
+{
+	background:#E4004F;
+}									 
+			
+.TablaAsignaturas
+	{
+		width:80%;
+		margin-left: auto;
+		margin-right: auto;
+		color:green;
+		border:1px solid black;
+	}
+		
+.CabeceraTabla
+	{
+		background:#AC8900	;
+	}
+
+		
+table
+	{
+		width:80%;
+		margin-left: auto;
+		margin-right: auto;
+		border-spacing: 5px;
+		color: white;
+	}
+		
+ListaAsignaturas tr:hover td
+	{
+		background:#E4004F;
+	}		
+	
+td
+	{
+		background: #fff;
+		color: #000;
+	  padding: 8px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+	}
+
+                                   /* FICHA PROFESOR */
+								   
+.IzquierdaProfesor	
+	{
+		position: absolute;
+		top:40%;
+		left:0%;
+		width:75%;
+		margin-left:0px;
+		height:300px;
+		margin-top:-150px;
+		border:0px solid #808080;
+		padding:5px;
+		display:inline-block;
+		overflow:hidden;
+	}			
+
+.DerechaProfesor	
+	{
+		position: absolute;
+		top:40%;
+		left:75%;
+		width:25%;
+		margin-left:0px;
+		height:300px;
+		margin-top:-150px;
+		border:0px solid #808080;
+		padding:5px;
+	}				
+
+	.CurriculumProfesor	
+	{
+		position: absolute;
+		top:80%;
+		left:0%;
+		width:75%;
+		margin-left:0px;
+		height:300px;
+		margin-top:-150px;
+		border:0px solid #808080;
+		padding:5px;
+	}				
+
+								           /* LISTADO PROFESORES */
+
+.ListaProfes	
+	{
+		position: absolute;
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:5%;
+		height:80%;
+		border:1px solid #808080;
+		padding:5px;
+	}				
+	
+.IzquierdaListaProfe	
+	{
+		position: absolute;
+		left:26%;
+		width:20%;
+		margin-top:5%;
+		border:1px solid #808080;
+		padding:5px;
+	  height:20%; 
+	  background:#E4004F;
+	  text-align:center;
+	  border-radius:15px;
+	}						
+
+.IzquierdaFotoProfe	
+	{
+		position:absolute;
+		width:20%;
+		left:3%;
+		margin-top:5%;
+		border:1px solid #808080;
+		padding:5px;
+		height:20%; 
+	  background:#E4004F;
+	  border-radius:15px;
+	}												
+	
+
+.DerechaListaProfe	
+	{
+		position:absolute;
+		left:72%;
+		margin-top:5%;
+		width:20%;
+		border:1px solid #808080;
+		padding:5px;
+		height:20%; 
+	  background:#E4004F;
+    text-align:center;
+	  border-radius:15px;
+	}		
+
+.DerechaFotoProfe	
+	{
+		position:absolute;
+		width:20%;
+		left:49%;
+		margin-top:5%;
+		border:1px solid #808080;
+		padding:5px;
+		height:20%; 
+	  background:#E4004F;
+	  border-radius:15px;
+  }					
+
+#il1
+	{
+		top:-5%;
+	}	
+
+#il2
+	{
+		top:19%;
+	}	
+
+#il3{
+	top:43%;
+}	
+
+#il4{
+	top:67%;
+}	
+
+#if1{
+	top:-5%;
+}	
+
+#if2{
+	top:19%;
+}	
+
+#if3{
+	top:43%;
+}	
+
+#if4{
+	top:67%;
+}	
+
+#dl1{
+	top:-5%;
+}	
+
+#dl2{
+	top:19%;
+}	
+
+#dl3{
+	top:43%;
+}	
+
+#dl4{
+	top:67%;
+}	
+
+#df1{
+	top:-5%;
+}	
+
+#df2{
+	top:19%;
+}	
+
+#df3{
+	top:43%;
+}	
+
+#df4{
+	top:67%;
+}	
+
+.foto{
+		background-size: cover;
+		position: relative;
+		left: 0%;
+		display: flex;
+		flex-flow: row;
+		width: 100%;
+		height: 100%;
+		border-radius:15px;
+	}
+
+.nombre
+	{
+		color:white;
+	}
+                   /* GENERALES */
+
+nav
+	{
+		width: 100%; 
+		display:block;
+   }
+
+p   	
+	{ 
+		margin: 0; 
+		padding: 10px; 
+	}
+
+h1   
+	{
+		background: #004A61;
+		color:white;
+		text-decoration:underline;
+		text-decoration-style: double;
+	}	  
+
+h2   
+	{
+	  background: #004A61;
+	  color:white;
+	  text-decoration:underline;
+	}	  
+
+h3   
+	{
+    background: #004A61;
+	  color:white;		  		  
+	  text-decoration:underline;
+	  text-decoration-style: dotted;
+	}	  
+.ParrafoEnBlanco
+	{
+     background: #004A61;
+		Color:white;
+	}	  
+
+		
+caja
+{
+	float:left; 
+	border-style:none; 
+	border-width:0; 
+	background-color:white;
+}		
